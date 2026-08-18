@@ -31,40 +31,6 @@ The website includes:
 -   PocketBase
 -   JavaScript / JSX
 
-## Project Structure
-
-``` text
-apps/
-└── web/
-    ├── public/
-    │   └── images/
-    │       └── ...
-    │
-    ├── src/
-    │   ├── components/
-    │   │   ├── CountUp.jsx
-    │   │   ├── Reveal.jsx
-    │   │   └── SiteLayout.jsx
-    │   │
-    │   ├── data/
-    │   │   └── services.js
-    │   │
-    │   ├── lib/
-    │   │   └── pocketbaseClient.js
-    │   │
-    │   ├── pages/
-    │   │   ├── HomePage.jsx
-    │   │   ├── AboutPage.jsx
-    │   │   ├── ServicesPage.jsx
-    │   │   └── ContactPage.jsx
-    │   │
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    │
-    ├── package.json
-    └── vite.config.js
-```
 
 ## Local Development
 
@@ -185,40 +151,6 @@ Before deployment:
 4.  Test all application routes.
 5.  Test the contact form.
 6.  Run a production build successfully.
-
-## Development Notes
-
-Keep reusable layout elements and shared UI components under:
-
-``` text
-src/components/
-```
-
-Keep page-specific content under:
-
-``` text
-src/pages/
-```
-
-Keep static website data under:
-
-``` text
-src/data/
-```
-
-Keep browser/client integrations under:
-
-``` text
-src/lib/
-```
-
-Use the `@` alias for imports from `src` where the Vite configuration
-supports it:
-
-``` jsx
-import SiteLayout from "@/components/SiteLayout";
-import Reveal from "@/components/Reveal";
-```
 
 ## License
 
