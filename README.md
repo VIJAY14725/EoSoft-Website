@@ -28,57 +28,6 @@ Local image assets served from the public directory
 
 PocketBase integration for contact enquiries
 
-Technology Stack
-
-React
-
-Vite
-
-React Router
-
-Tailwind CSS
-
-Lucide React
-
-React Helmet
-
-PocketBase
-
-JavaScript / JSX
-
-Project Structure
-
-apps/
-└── web/
-    ├── public/
-    │   └── images/
-    │       └── ...
-    │
-    ├── src/
-    │   ├── components/
-    │   │   ├── CountUp.jsx
-    │   │   ├── Reveal.jsx
-    │   │   └── SiteLayout.jsx
-    │   │
-    │   ├── data/
-    │   │   └── services.js
-    │   │
-    │   ├── lib/
-    │   │   └── pocketbaseClient.js
-    │   │
-    │   ├── pages/
-    │   │   ├── HomePage.jsx
-    │   │   ├── AboutPage.jsx
-    │   │   ├── ServicesPage.jsx
-    │   │   └── ContactPage.jsx
-    │   │
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    │
-    ├── package.json
-    └── vite.config.js
-
 Local Development
 
 From the project root:
@@ -92,22 +41,8 @@ http://localhost:5173
 
 Share the Development Site on a Local Network
 
-To allow another computer on the same network to access the website:
-
-npm run dev -- --host 0.0.0.0
 
 Vite will display a network URL. Share that URL with the other user.
-
-Environment Configuration
-
-If PocketBase is used locally, configure the frontend environment with
-the PocketBase URL.
-
-Example:
-
-VITE_POCKETBASE_URL=http://127.0.0.1:8090
-
-Do not commit private credentials or secrets to the repository.
 
 Local Images
 
@@ -117,15 +52,6 @@ apps/web/public/images/
 
 are referenced from the application using root-relative paths.
 
-For example:
-
-<img src="/images/MJR.png" alt="EoSoft Solutions" />
-
-Do not use:
-
-import MJR from "@/public/images/MJR.png";
-
-for files stored under public.
 
 Routing
 

@@ -159,9 +159,10 @@ const SiteLayout = ({ children }) => {
                             <div className="flex items-start gap-3">
                                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                                 <span className="text-sm text-muted-foreground">
-                                    MJR Magnifique,
-                                    <br/>Hyderabad-500032, 
-                                    <br/>India
+                                    402 MJR Magnifique,Raidurgam,
+                                    <br/>Prashant Hills,
+                                    Hyderabad-500032, Telangana, 
+                                    <br/> INDIA.
                                 </span>
                             </div>
                         </div>
