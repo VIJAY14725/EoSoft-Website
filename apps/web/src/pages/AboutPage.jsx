@@ -32,13 +32,12 @@ const AboutPage = () => (
 
                 <Reveal delay={0.1}>
                     <p className="text-base leading-relaxed text-muted-foreground">
-                        EoSoft Solutions Pvt Ltd was founded in Bengaluru in 2014
+                        EoSoft Solutions Pvt Ltd was founded in Hyderabad in 2001
                         to close the gap between advice and delivery. Our
                         consultants lead engagements alongside the engineers who
                         implement them, which keeps recommendations honest and
                         timelines realistic. Today we support clients across
-                        India, the Gulf and the UK in financial services,
-                        logistics, manufacturing and healthcare.
+                        India,logistics, manufacturing and healthcare.
                     </p>
                 </Reveal>
             </div>
